@@ -6,6 +6,8 @@ The *Navigator* interface represents the state and the identity of the user agen
 
  The navigator.onLine returns the online status of the browser. The property returns a boolean value, with true meaning online and false meaning offline.
 
+ what was decided is to alternate the background color based on the browser online status: offline or online.
+
 ```javascript
 if (navigator.onLine){
     online();
