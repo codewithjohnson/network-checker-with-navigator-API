@@ -26,3 +26,5 @@ function offline() {
     STATUS.innerHTML = `<span> offline</span>`;
 }
 ```
+
+![demo](online_offline.gif)
